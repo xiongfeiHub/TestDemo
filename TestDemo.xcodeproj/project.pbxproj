@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8335D3C21DEFD875007561F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8335D3C11DEFD875007561F4 /* AppDelegate.swift */; };
-		8335D3C41DEFD875007561F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8335D3C31DEFD875007561F4 /* ViewController.swift */; };
 		8335D3C71DEFD875007561F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8335D3C51DEFD875007561F4 /* Main.storyboard */; };
 		8335D3C91DEFD875007561F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8335D3C81DEFD875007561F4 /* Assets.xcassets */; };
 		8335D3CC1DEFD875007561F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8335D3CA1DEFD875007561F4 /* LaunchScreen.storyboard */; };
 		8335D3D71DEFD875007561F4 /* TestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8335D3D61DEFD875007561F4 /* TestDemoTests.swift */; };
 		8335D3E21DEFD875007561F4 /* TestDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8335D3E11DEFD875007561F4 /* TestDemoUITests.swift */; };
+		83D0F1271DF4018D0022C704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0F1221DF4018D0022C704 /* AppDelegate.swift */; };
+		83D0F1281DF4018D0022C704 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0F1231DF4018D0022C704 /* ViewController.swift */; };
+		83D0F1291DF4018D0022C704 /* DaoHangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0F1241DF4018D0022C704 /* DaoHangViewController.swift */; };
+		83D0F12A1DF4018D0022C704 /* CustonTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0F1251DF4018D0022C704 /* CustonTabBarVC.swift */; };
+		83D0F12B1DF4018D0022C704 /* XFAnnotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0F1261DF4018D0022C704 /* XFAnnotion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +38,6 @@
 
 /* Begin PBXFileReference section */
 		8335D3BE1DEFD875007561F4 /* TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8335D3C11DEFD875007561F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8335D3C31DEFD875007561F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8335D3C61DEFD875007561F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8335D3C81DEFD875007561F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8335D3CB1DEFD875007561F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,11 @@
 		8335D3DD1DEFD875007561F4 /* TestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8335D3E11DEFD875007561F4 /* TestDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDemoUITests.swift; sourceTree = "<group>"; };
 		8335D3E31DEFD875007561F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D0F1221DF4018D0022C704 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83D0F1231DF4018D0022C704 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83D0F1241DF4018D0022C704 /* DaoHangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoHangViewController.swift; sourceTree = "<group>"; };
+		83D0F1251DF4018D0022C704 /* CustonTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustonTabBarVC.swift; sourceTree = "<group>"; };
+		83D0F1261DF4018D0022C704 /* XFAnnotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XFAnnotion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		8335D3C01DEFD875007561F4 /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8335D3C11DEFD875007561F4 /* AppDelegate.swift */,
-				8335D3C31DEFD875007561F4 /* ViewController.swift */,
 				8335D3C51DEFD875007561F4 /* Main.storyboard */,
+				83D0F1221DF4018D0022C704 /* AppDelegate.swift */,
+				83D0F1231DF4018D0022C704 /* ViewController.swift */,
+				83D0F1241DF4018D0022C704 /* DaoHangViewController.swift */,
+				83D0F1251DF4018D0022C704 /* CustonTabBarVC.swift */,
+				83D0F1261DF4018D0022C704 /* XFAnnotion.swift */,
 				8335D3C81DEFD875007561F4 /* Assets.xcassets */,
 				8335D3CA1DEFD875007561F4 /* LaunchScreen.storyboard */,
 				8335D3CD1DEFD875007561F4 /* Info.plist */,
@@ -194,6 +203,7 @@
 					8335D3BD1DEFD874007561F4 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = ED77LPX5PJ;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					8335D3D11DEFD875007561F4 = {
@@ -260,8 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8335D3C41DEFD875007561F4 /* ViewController.swift in Sources */,
-				8335D3C21DEFD875007561F4 /* AppDelegate.swift in Sources */,
+				83D0F12A1DF4018D0022C704 /* CustonTabBarVC.swift in Sources */,
+				83D0F12B1DF4018D0022C704 /* XFAnnotion.swift in Sources */,
+				83D0F1281DF4018D0022C704 /* ViewController.swift in Sources */,
+				83D0F1291DF4018D0022C704 /* DaoHangViewController.swift in Sources */,
+				83D0F1271DF4018D0022C704 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,11 +426,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ED77LPX5PJ;
 				INFOPLIST_FILE = TestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ED77LPX5PJ;
 				INFOPLIST_FILE = TestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -508,6 +524,7 @@
 				8335D3E81DEFD875007561F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8335D3E91DEFD875007561F4 /* Build configuration list for PBXNativeTarget "TestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +533,7 @@
 				8335D3EB1DEFD875007561F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8335D3EC1DEFD875007561F4 /* Build configuration list for PBXNativeTarget "TestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +542,7 @@
 				8335D3EE1DEFD875007561F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
